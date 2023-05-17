@@ -77,7 +77,6 @@ const pullFromBag = () => {
         bag = structuredClone(pieces)
     }
     let index = Math.floor(Math.random() * bag.length)
-    console.log(index)
     bag.splice(index, 1)
     return index
 }
